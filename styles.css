@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/pexels-negative-space-169573.jpg') no-repeat center ;
+  background: url('images/pexels-negative-space-34578.jpg') no-repeat top;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -76,9 +76,8 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
-#experience-header {
-  display: flex;
-  align-items: center;
+header h1 {
+  border: 2px solid #22c788;
 }
 
 .tag {
@@ -91,9 +90,9 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: lightgreen;
 }
-.card {
+.info-card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -103,8 +102,8 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
+.info-card:hover {
+  border-color: #22c788;
 }
 
 ul.skills {
@@ -115,14 +114,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #a7388e;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #4AB2D6;
 }
 
 footer {
@@ -171,6 +170,41 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+/* Experience page */
+#experience-header {
+  background: url('images/pexels-negative-space-169573.jpg') no-repeat center ;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 100px 30px;
+}
+/* Work With Me page */
+#work-with-me-header {
+  background: url('images/pexels-pixabay-262488.jpg') no-repeat center ;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 100px 30px;
+}
+#work-with-me-main ol {
+  text-align: left;
+  margin
+}
+.work-steps {
+  display: flex;
+  gap: 10px;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.work-steps h3 {
+  /*margin-right: 20px;*/
+  min-width: 250px;
+
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
