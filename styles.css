@@ -84,7 +84,7 @@ header h1 {
   background-color: #efefef;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   display: table;
   margin: 10px auto;
 } 
@@ -92,7 +92,7 @@ header h1 {
   background-color: #222;
   color: lightgreen;
 }
-.info-card {
+.card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -102,7 +102,7 @@ header h1 {
   border-radius: 6px;
   transition: all .5s;
 }
-.info-card:hover {
+.card:hover {
   border-color: #22c788;
 }
 
@@ -187,24 +187,22 @@ a.social:hover {
   align-items: center;
   padding: 100px 30px;
 }
-#work-with-me-main ol {
-  text-align: left;
-  margin
+#work-with-me-main .icon-boxes i{
+  font-size: 80px;
+}
+.icon-boxes p {
+  font-size: 20px;
 }
 .work-steps {
   display: flex;
-  gap: 10px;
   text-align: left;
   max-width: 700px;
   margin: 0 auto;
+  border-bottom: 1px dotted #22c788;
 }
-
 .work-steps h3 {
-  /*margin-right: 20px;*/
   min-width: 250px;
-
 }
-
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
